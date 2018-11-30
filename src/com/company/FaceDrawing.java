@@ -19,8 +19,7 @@ public class FaceDrawing {
 
     public void edit(String replace, int row, int column)
     {
-        for(int i=0; i<faceFeatures.length; i++) {
-            if
+        faceFeatures[row][column] = replace;
     }
 
 
